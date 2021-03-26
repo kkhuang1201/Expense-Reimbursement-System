@@ -21,9 +21,9 @@ The Expense Reimbursement System (ERS) manages the process of reimbursing employ
 * Maven
 * Git
 
-## Features
+## List of features ready and opportunities for future development
 
-List of features ready and opportunities for future development
+
 *An Employee can login
 *An Employee can view the Employee Homepage
 *An Employee can logout
