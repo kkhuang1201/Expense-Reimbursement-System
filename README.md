@@ -6,7 +6,6 @@ The Expense Reimbursement System (ERS) manages the process of reimbursing employ
 
 
 ## Technologies Used
-##Servlets, Java, JavaScript, HTML, CSS, JDBC, SQL, AJAX, Bootstrap, RDS, Tomcat, Git, Maven
 
 *Servelets
 * Java
@@ -57,6 +56,6 @@ Opportunities:
 
 Clone the repo with:
 
-git clone https://github.com/Batch-908-AugustDuet/chronicle-storage-service.git
+git clone https://github.com/kkhuang1201/Expense-Reimbursement-System.git
 
 
