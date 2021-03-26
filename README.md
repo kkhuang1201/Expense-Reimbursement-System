@@ -21,7 +21,7 @@ The Expense Reimbursement System (ERS) manages the process of reimbursing employ
 * Maven
 * Git
 
-##Features 
+## Features 
 
 List of features ready:
 
