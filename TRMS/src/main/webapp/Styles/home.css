@@ -1,0 +1,235 @@
+/* Navbar container */
+header{
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(80, 78, 78);
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.5em;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float:left;
+    overflow: hidden;
+  }
+
+  #dropdownaccount{
+    float:right;
+    overflow: hidden;  
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    width: 150px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(35, 73, 27);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dashboard{
+    overflow: hidden;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+  h1,h3{
+    color: rgb(94, 75, 75);
+  }
+
+  /*------------------All Form----------*/
+  .allForm{
+    display: block;
+  }
+  .allForm input{
+    float:right
+  }
+
+  .allForm button{
+    margin: 0 auto;
+    display: block;
+  }
+ h2{
+   text-align: center;
+   color: brown;
+ }
+
+ .allForm ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.allForm li {
+  margin: auto;
+}
+
+.allForm li a {
+  border: none;
+  border-color:rgb(7, 7, 7);
+  background-color: rgb(241, 184, 163);
+  border-radius: 20px;
+  
+}
+
+/*----------------Profile Form-------------*/
+#profileForm{
+  display: none;
+}
+::value{
+  color: rgb(5, 2, 2);
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+
+/*------------Employeee Table-------------*/
+table{
+  margin:auto;
+  border-style: solid;
+  width: 50%;
+  text-align: center;
+  background-color:rgb(160, 145, 95);
+  border-collapse: collapse;
+  border-color: rgb(77, 76, 76);
+}
+
+thead > tr > td{
+  color:blue;
+  font-size: large;
+  font-weight: bolder;
+}
+
+td{
+  border-right:thin solid;
+  border-top: thin solid;
+  height: 40px;
+}
+
+/*---------Submit Reimbursement Form--------*/
+#descriptionArea{
+  width: 380px;
+  height: 200px;
+
+}
+
+/*--------Load All Reimbursement------------*/
+.collapsible{
+  background-color: rgb(252, 250, 250);
+  border: none;
+  border-radius: 0ex;
+}
+
+.active, .collapsible:hover{
+  background-color: rgb(255, 8, 0);
+}
+
+.content{
+  display: inline block;
+}
+
+.reimContentDiv{
+  display: block;
+  width: 382px;  
+  margin: auto;  
+  padding: 50px 100px;  
+  border-radius: 15px ; 
+}
+
+.reimContentDiv > label{
+  float: left;
+  color:black;
+}
+
+.reimContentDiv > p {
+  color:black
+}
+
+.reimContentDiv > input{
+  float: right;
+  background-color: rgb(160, 145, 95);
+  border: none;
+  color: black;
+}
+
+.reimContentDiv > textarea{
+  float: right;
+  background-color: rgb(160, 145, 95);
+  color: black;
+  border: none;
+}
+
+.reimContentDiv ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reimContentDiv li{
+  margin: auto;
+}
+
+.reimContentDiv >ul>li>a{
+  background-color: rgb(160, 145, 95);
+  border: none;
+  color: rgb(31, 15, 250);
+}
