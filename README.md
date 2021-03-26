@@ -7,8 +7,8 @@ The Expense Reimbursement System (ERS) manages the process of reimbursing employ
 
 ## Technologies Used
 
-*Servelets
 * Java
+* Servelets
 * JavaScript
 * HTML
 * CSS
